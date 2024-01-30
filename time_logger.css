@@ -1,0 +1,59 @@
+#task,#description
+        {
+            height:40px;
+            width:300px;
+            border-radius: 20px;
+            text-align: center;
+            
+        }
+        #hours,#min,#sec
+        {
+            display: inline;
+        }
+        #table
+        {
+            border-collapse: collapse;
+            background-color: #FFEED9;
+            text-align: center;
+        }
+        .container
+        {
+            display: flex;
+            flex-direction: row;
+            height:500px;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color: #E0F4FF;
+        }
+        .input
+        {
+            display:flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #87C4FF;
+            padding:50px;
+            border-radius: 5px;
+        }
+        th,td{
+            padding:15px;
+            width:100px;
+            border-bottom: 1px solid #ccc;
+        }
+        button{
+            padding: 10px;
+            background-color: chartreuse;
+            width:120px;
+            font-size:medium;
+            border-radius: 5%;
+        }
+        p{
+            color: #4D5061;
+            font-size:x-large;
+        }
+        .header
+        {
+            text-align: center;
+            background-color: #87C4FF;
+            padding:5px;
+        }
